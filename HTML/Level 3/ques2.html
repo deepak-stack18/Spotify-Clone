@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+
+    <body>
+        <form action="serverr">
+            <div> 
+               <label for="name">Name</label>
+               <input type="text" name="Name"      > 
+            </div>
+
+            <div>
+                Sex: 
+                <input type="radio" name ="gender" id="gender">
+                <label for="gender">Male</label>
+                <input type="radio" name ="gender1" id="gender1">
+                <label for="gender1">Female</label>
+            </div>
+
+            <div>
+                    Country:
+                    <select name="country" id="country">
+                    <option value="sac">Select an option</option>
+                    <option value="ind">India</option>
+                    <option value="pak">Paapistan</option>
+                    <option value="oth">Others</option>
+                    </select>
+            </div>
+
+            <div>
+                Message:
+                <textarea name="feedback" id="feedback"></textarea>
+                <label for="feedback"></label>
+            </div>
+                
+            <div>
+                <input type="checkbox" name ="sbs" id="sbs">
+                <label for="sbs">Subscribe?</label>
+            </div>
+
+            <div>
+                <button>submit</button>
+            </div>
+        </form>
+    </body>
+</html>

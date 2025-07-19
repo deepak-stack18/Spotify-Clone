@@ -1,0 +1,22 @@
+#outer{
+    height: 400px;
+    width: 400px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 2px solid lightseagreen;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#box{
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: grey;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+}

@@ -1,0 +1,60 @@
+div{
+    height: 400px;
+    width: 550px;
+    background-color: fuchsia;
+
+    /*animation-name: colorAnimation;*/
+    /*animation-duration: 4s;*/
+    /*animation-timing-function: ease-in;*/
+    /*animation-delay: 0s;*/
+    /*animation-iteration-count: 5;*/
+    /*animation-direction:alternate;*/
+
+    /*animation shorthand*/
+    animation: colorAnimation 6s ease-in-out 0s 4 normal;
+}
+
+@keyframes fontAnimation {
+       from{
+           font-size:25px;
+       }
+      to{
+          font-size:45px;
+      }
+}
+
+@keyframes colorAnimation{
+    /*from{*/
+    /*    background-color:lightcoral;*/
+    /*}*/
+    /*to{*/
+    /*    background-color: chartreuse;*/
+    /*}*/
+    0%{
+        background-color: darkolivegreen;
+    }
+    25%{
+        background-color: mediumorchid;
+    }
+    90%{
+        background-color: crimson;
+    }
+    100%{
+        background-color: darkturquoise;
+    }
+}
+
+@keyframes widthAnimation{
+    /*multiple properties ko same fn m call krlia*/
+    from{
+        width: 1px;
+        font-size:25px;
+        background-color:lightcoral;
+    }
+    to{
+        width:500px;
+        font-size:5px;
+        background-color: chartreuse;
+        border-radius: 25px;
+    }
+}
